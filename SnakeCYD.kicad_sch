@@ -1,0 +1,705 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "967fdfbd-531d-41ad-89b2-06ad05edb8c3")
+	(paper "A4")
+	(lib_symbols
+		(symbol "tft_320x240:TFT_320x240"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U?"
+				(at 20.32 25.4001 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TFT_320x240"
+				(at 20.32 22.8601 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "z_Devices:TFT-320x240"
+				(at 20.32 20.3201 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 208.28 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TFT_320x240_0_0"
+				(text "TFT  320x240"
+					(at 0 25.4 0)
+					(effects
+						(font
+							(size 2.9972 2.9972)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(symbol "TFT_320x240_0_1"
+				(rectangle
+					(start -19.05 45.72)
+					(end -5.08 43.18)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -19.05 45.72)
+					(end 19.05 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -19.05 6.35)
+					(end 19.05 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -19.05 6.35)
+					(end 19.05 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -19.05 0)
+					(end 19.05 0.8382)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -17.78 0)
+					(end -19.05 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 45.72)
+					(end 19.05 43.18)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 17.78 3.81)
+					(end 19.05 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "TFT_320x240_1_1"
+				(polyline
+					(pts
+						(xy 17.78 6.35) (xy 17.78 7.62) (xy 5.08 7.62) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 255 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "TOUCH"
+					(at 11.684 8.382 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -2.54 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 -2.54 90)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -2.54 90)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -2.54 90)
+					(length 2.54)
+					(name "DC"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 -2.54 90)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 -2.54 90)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -2.54 90)
+					(length 2.54)
+					(name "LED"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 -2.54 90)
+					(length 2.54)
+					(name "MISO"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -2.54 90)
+					(length 2.54)
+					(name "T_CLK"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -2.54 90)
+					(length 2.54)
+					(name "T_CS"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -2.54 90)
+					(length 2.54)
+					(name "T_DIN"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 13.97 -2.54 90)
+					(length 2.54)
+					(name "T_DO"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 -2.54 90)
+					(length 2.54)
+					(name "T_IRQ"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 48.26 270)
+					(length 2.54)
+					(name "SD_CS"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 48.26 270)
+					(length 2.54)
+					(name "SD_MOSI"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 48.26 270)
+					(length 2.54)
+					(name "SD_MISO"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 3.81 48.26 270)
+					(length 2.54)
+					(name "SD_SCK"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 0.7874 0.7874)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "tft_320x240:TFT_320x240")
+		(at 52.07 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f597d334-1b7b-4f3c-a18d-97632ab527fc")
+		(property "Reference" "U2"
+			(at 72.39 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TFT_320x240"
+			(at 72.39 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "z_Devices:TFT-320x240"
+			(at 72.39 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "de849be4-1806-4d7a-99ce-175b19bd18b4")
+		)
+		(pin "9"
+			(uuid "b164d5d1-910b-4b17-8db6-440250e5eb7c")
+		)
+		(pin "12"
+			(uuid "a86e0f15-6e3a-4ad7-aca5-dbbfec6dfdaa")
+		)
+		(pin "5"
+			(uuid "627da80d-3325-4348-b00d-7ceb994e6202")
+		)
+		(pin "10"
+			(uuid "c76aa7cd-77a8-4411-a74c-17462aede58d")
+		)
+		(pin "4"
+			(uuid "7d2bcc39-522b-453e-a6e4-d9f46c3950b5")
+		)
+		(pin "8"
+			(uuid "d4958063-e83b-41a6-b0f7-ad43bd2f8997")
+		)
+		(pin "6"
+			(uuid "e1246cd7-f5bd-41df-a2b0-1ed6ff618d8e")
+		)
+		(pin "15"
+			(uuid "d0f894b3-9268-4a6e-b0bc-263bf62f1dbb")
+		)
+		(pin "3"
+			(uuid "5e9f4eb4-2647-444c-ae7b-98ab5c47dc1d")
+		)
+		(pin "2"
+			(uuid "afa1ff6c-36c7-45c1-9031-127b9df567b3")
+		)
+		(pin "1"
+			(uuid "2ab2dadf-04f1-4e29-82f3-8199143e4eb9")
+		)
+		(pin "11"
+			(uuid "eb76658c-a2e5-48bf-b3f7-2f21965790d6")
+		)
+		(pin "14"
+			(uuid "e5674d80-e2ba-4fd0-b022-dc7ec2bc5739")
+		)
+		(pin "7"
+			(uuid "d9666b24-3d05-4e7a-90f1-f489b4ed0551")
+		)
+		(pin "13"
+			(uuid "52c68c8b-f35d-40bd-a310-41f108e0a4b5")
+		)
+		(pin "17"
+			(uuid "f8a7a2dd-e762-4965-b48b-8ebd4f9c5c3b")
+		)
+		(pin "18"
+			(uuid "049b6c81-8ce7-4022-b058-5b6fa5211ebe")
+		)
+		(instances
+			(project "SnakeCYD"
+				(path "/967fdfbd-531d-41ad-89b2-06ad05edb8c3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 109.22)
+		(size 88.9 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "96915ca4-0f91-4a6d-8b3d-45b907aafa12")
+		(property "Sheetname" "ESP32-S3"
+			(at 104.14 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESPCIR.kicad_sch"
+			(at 104.14 163.1446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SnakeCYD"
+				(path "/967fdfbd-531d-41ad-89b2-06ad05edb8c3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
