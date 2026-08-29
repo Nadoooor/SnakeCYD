@@ -1523,8 +1523,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 52.07)
-		(size 38.1 22.86)
+		(at 67.31 16.51)
+		(size 20.32 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1539,7 +1539,7 @@
 		)
 		(uuid "96915ca4-0f91-4a6d-8b3d-45b907aafa12")
 		(property "Sheetname" "ESP32-S3"
-			(at 180.34 51.3584 0)
+			(at 67.31 15.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1550,7 +1550,7 @@
 			)
 		)
 		(property "Sheetfile" "ESPCIR.kicad_sch"
-			(at 180.34 75.5146 0)
+			(at 67.31 32.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
