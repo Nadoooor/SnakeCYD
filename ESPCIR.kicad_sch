@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "33b98a5c-e655-46a6-a4ed-a3d7876c4f08")
+	(uuid "caf24bf6-1034-45a0-b566-175cf1129896")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -3183,10 +3183,34 @@
 		(effects
 			(font
 				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 			(justify left top)
 		)
 		(uuid "78db6313-5f87-4ee2-8d57-3ab6099cd65f")
+	)
+	(text_box "ESP32-S3 Chip"
+		(exclude_from_sim no)
+		(at 97.79 49.53 0)
+		(size 92.71 66.04)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "8ea03ced-ba94-4a10-981d-4ecb0abaacb0")
 	)
 	(text_box "RGB Neo\n"
 		(exclude_from_sim no)
@@ -3203,6 +3227,8 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
 			)
 			(justify left top)
 		)
@@ -3223,6 +3249,8 @@
 		(effects
 			(font
 				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 			(justify left top)
 		)
@@ -3243,6 +3271,8 @@
 		(effects
 			(font
 				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 			)
 			(justify left top)
 		)
@@ -5521,8 +5551,8 @@
 		)
 		(uuid "1ab6f2d9-ad11-46fa-904d-d04d32452cd1")
 	)
-	(hierarchical_label "GPIO21"
-		(shape bidirectional)
+	(hierarchical_label "T_IRQ"
+		(shape input)
 		(at 146.05 59.69 90)
 		(effects
 			(font
