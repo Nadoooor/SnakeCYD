@@ -1,6 +1,8 @@
 # SnakeCYD
 --------------
-![alt text](Photos/3dback.png)
+<p align="center">
+  <img src="Photos/3dback.png" alt="Centered Image" width="500">
+</p>
 --------------------------------
 
 ## Description:
